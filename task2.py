@@ -18,7 +18,7 @@ Access denied
 username = input("")
 password = input("")
 
-while username != "admin" and password != "12345":
+while (username != "admin" and password != "12345") or (username == "admin" and password != "12345") or (username != "admin" and password == "12345"):
     print("Access denied")
     username = input("")
     password = input("")
