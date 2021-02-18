@@ -23,7 +23,7 @@
     {
       "name": "Task 2b",
       "setup": "",
-      "run": "python3 task.2py",
+      "run": "python3 task2.py",
       "input": "julian\r\nassange\r\nadmin\r\n12345",
       "output": "Access granted",
       "comparison": "included",
