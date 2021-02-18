@@ -17,8 +17,8 @@ outputs:
 Access granted
 Access denied
 """
-username = input("username: ")
-password = input("password: ")
+username = input("username: ").strip()
+password = input("password: ").strip()
 count = 0
 
 while (username != "admin" and password != "12345") or (username == "admin" and password != "12345") or (username != "admin" and password == "12345"):
@@ -26,7 +26,7 @@ while (username != "admin" and password != "12345") or (username == "admin" and 
     count += 1
     if count > 2:
         break
-    username = input("username: ")
-    password = input("password: ")
+    username = input("username: ").strip()
+    password = input("password: ").strip()
 if username == "admin" and password == "12345":
     print("Access granted")
