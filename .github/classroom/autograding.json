@@ -73,7 +73,7 @@
     {
       "name": "Problem 2b",
       "setup": "",
-      "run": "python3 problem3.py",
+      "run": "python3 problem2.py",
       "input": "8",
       "output": "8 16 24 32 40 48 56 64 72 80 ",
       "comparison": "included",
